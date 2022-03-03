@@ -6,7 +6,7 @@
 ;Anything after ";" is a Explanation, not necessary to read
 
 {
- $F8::  ;Can Change F6 to a different key but it must also be changed for the Mouse with Logitech software and KeyWait line after Else in this Script
+ $F8::  ;Can Change F8 to a different key but it must also be changed for the Mouse with Logitech software and KeyWait line after Else in this Script
  if (getKeyState("MButton","P")) ;Get's Status of Middle Scroll Wheel Button
  {
   KeyWait,MButton ;Waits While Middle Scroll Wheel Button is Held Down
